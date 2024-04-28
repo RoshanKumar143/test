@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- Hero Section   -->
+    <header> 
+        <!-- Banner-slider -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images-pw.pixieset.com/sample_photos/theme_8_c5c72c66_XL.jpg" class="d-block w-100" alt="Image Not Found">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images-pw.pixieset.com/sample_photos/theme_8_c5c72c66_XL.jpg" class="d-block w-100" alt="Image Not Found">
+                </div>
+            </div>
+            <button class="carousel-control-prev padding" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: rgba(0, 0, 255, 0.395);"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next padding" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: blue;"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>        
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg" id="navigation-bar">
+            <div class="container-fluid" style="margin-left: 100px;">
+                <a class="navbar-brand" id="logo" href="#">PHOTOGRAPHY</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav" >
+                        <a class="nav-link" id="nav-items" aria-current="page" href="#">HOME</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle"  id="nav-items" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    PORTFOLIO
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Dropdown</a></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a class="nav-link" id="nav-items" href="#">ABOUT</a>
+                        <a class="nav-link"  id="nav-items"href="#testimonials">TESTIMONIALS</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner-text-sec   -->
+        <div class="banner-text">
+            <h1 id="banner-header">
+                Photography For <br/> Adventurous Souls & Rebels <br> At Heart
+            </h1>
+            <!-- <button id='read-me' class="btn-primary btn-secondary">read more</button> -->
+                
+            <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning  pe-4 ps-4" style="margin-top: 150px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    read more
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Quote</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                "Photography is the art of capturing moments, revealing truths, and painting the world with light."
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+    </header>
+
+
+    <!-- Slider-sec -->
+    <div class="sliderContainer">
+        <div class="mainHeading">
+            <!-- <h1>Pic Slider</h1> -->
+        </div>
+        <div class="imgContainer">
+        <img
+            id="firstImg"
+            src="https://media.istockphoto.com/id/904172104/photo/weve-made-it-all-this-way-i-am-proud.jpg?s=612x612&w=0&k=20&c=MewnsAhbeGRcMBN9_ZKhThmqPK6c8nCT8XYk5ZM_hdg="
+            alt="first"
+        />
+        <img
+            id="secondImg"
+            src="https://images.hindustantimes.com/img/2023/01/10/1600x900/While-the-past-year-was-about-revenge-and-revival-_1673351689949.jpg"
+            alt="second"
+        /><img
+            id="thirdImg"
+            src="https://bottindia.com/wp-content/uploads/2023/06/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg"
+            alt="third"
+        />
+        </div>
+        <div class="btnContainer">
+            <span title="previous image" id="previous">⏮</span>
+            <span title="next image" id="next">⏭</span>
+        </div>
+    </div>
+
+
+    <!-- Grid Photo Gallery_Section  -->
+    <figure class="img-grid">
+        <div class="grid-1">
+          <p><span style="text-decoration: line-through; padding-right: 5px;">Live</span><span style="box-shadow: -5px -5px 1px red;">Lead</span></p>
+          <img src="https://images-pw.pixieset.com/sample_photos/theme_8_41dce162_XL.jpg" alt="">
+        </div>
+        <div class="grid-2">
+          <p style="text-decoration: underline;"> Happy </p>  
+          <img src="https://images-pw.pixieset.com/elementfield/767036941/montreal_5-3981ad57.jpg" alt="">
+        </div>
+        <div class="grid-3">
+          <img src="https://images-pw.pixieset.com/elementfield/767036941/montreal_21-c318e372.jpg" alt="">
+          <p class="grid3-text" style="box-shadow: 5px -5px 1px green;">
+            LIFE
+          </p>
+        </div>
+
+    </figure>
+
+
+    <!-- text -sec   -->
+    <article>
+        <div class="text-1">
+            <h1>Pacific Northwest or Anywhere Beyond</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga consequuntur officiis neque, libero assumenda labore necessitatibus suscipit dolorum, magnam placeat facilis. Dolor eum sunt quos maxime nesciunt reiciendis, atque libero!
+                Perspiciatis rerum sequi ipsa quo atque voluptatum minus cum magni commodi, perferendis qui repellat nisi, modi odio corporis accusamus! Fugit aperiam ullam fuga cupiditate voluptatibus corrupti sunt. Maxime, amet dolores?
+                Nihil, dolorum voluptate a neque iste repellendus vel aliquam officiis ut nostrum ipsum adipisci dolores inventore vitae esse placeat sit odit facilis ipsa impedit. Architecto ea similique magni eaque omnis?</p>
+        </div>
+        <button class="btn-pri btn-sec">Know more</button>
+    </article>
+
+
+    <!-- Img-text     -->
+    <section class="img-text">
+        <div class="img-div">
+            <img src="https://images-pw.pixieset.com/sample_photos/theme_8_b216454b_XL.jpg" alt="">
+        </div>
+        <div class="text-div">
+            <h1>Welcome Friend, <br/> My Name Is  <br/> Vanessa</h1>
+            <div class="text-div2">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui necessitatibus excepturi, temporibus consequatur sunt corporis iste quos accusamus optio iure iusto ipsam consequuntur asperiores fugiat placeat neque dolores cumque eligendi?</p>
+                <button class="btn-pri btn-sec">Load More</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Testimonial-sec -->
+    <section class="testimonial" id="testimonials">
+        <div class="left-div">
+            <h3>Testimonial</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nostrum laborum, aut reiciendis et vel molestias aliquam nam suscipit quam sunt ea maxime! Numquam assumenda quae amet voluptatibus ullam exercitationem.</p>
+        </div>
+        <div class="right-div">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="https://images-pw.pixieset.com/sample_photos/theme_8_c5c72c66_XL.jpg" class="d-block w-100" alt="img not found">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://images-pw.pixieset.com/sample_photos/theme_8_c5c72c66_XL.jpg" class="d-block w-100" alt="img not found">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images-pw.pixieset.com/sample_photos/theme_8_c5c72c66_XL.jpg" class="d-block w-100" alt="img not found">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"  style="background-color: rgba(0, 0, 255, 0.395);"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"  style="background-color: rgba(0, 0, 255, 0.395);"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>    
+</body>
+</html>
