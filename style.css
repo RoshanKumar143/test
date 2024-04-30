@@ -24,7 +24,7 @@ header{
     color:rgba(18, 17, 17, 0.875);
     text-align: center;
     color: crimson;
-    background-color: #00000078;
+    /* background-color: #00000078; */
 }
 #nav-items:hover{
     background-color: #000000;
@@ -772,6 +772,228 @@ article button:hover{
 
 .left-div p{
     font-size: 19px;
+    color:#FFFFFF;
+}
+
+}
+
+
+
+@media screen and (max-width:320px) {
+    header img{
+        height: 20vh;
+    }
+    #logo{
+        font-size: 19px;
+        margin-right: 400px;
+    }
+
+    #toggle-spacing{
+        margin-right: 100px;
+    }
+
+    /* banner-text */
+    .banner-text{
+        /* height: 100vh; */
+        position: absolute;
+        top: 30%;
+        margin: 20% 20% 0 20%;
+    }
+
+    #banner-header{
+        font-size: 17px;
+        color: #d1b8b8c1;
+        font-weight: 600;
+    }
+
+    #read-more{
+        font-size: 12px;
+        background: none;
+        border: none;
+        display: none;
+    }
+
+
+
+/* SLider-Sec */
+    .sliderContainer {
+        margin-top: 15%;
+    }
+
+    
+    
+/* Grid-SEction */
+    .img-grid{
+        margin-top: 20%;
+    }
+
+    .grid-1{
+        width: 30%;
+        margin: 0 1%;
+        /* height: 90vh; */
+    }
+
+    .grid-1 img{
+        width: 100%;
+        height: 200px;
+        box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.411);
+    }
+    .grid-1 p{
+        color: rgb(0, 8, 0);
+        font-size: 15px;
+        text-align: center;
+        font-weight: 500;
+        box-shadow: 10px 10px 10px rgb(132, 170, 132);
+    }
+    .grid-2{
+        width: 30%;
+        height: 300px;
+    }
+    .grid-2 img{
+        margin-bottom: 95px;
+        width: 100%;
+        height: 250px;
+        top: 50px;
+    }
+    .grid-2 p{
+        display: none;
+    }
+    .grid-3{
+        position: relative;
+        width: 30%;
+        margin: 0 1%;
+        /* height: 90vh; */
+        border: none;
+    }
+    .grid-3 img{
+        position: relative;
+        width: 100%;
+        height: 240px;
+        box-shadow: -10px 10px 10px rgba(255, 0, 0, 0.411);
+    }
+    .grid3-text{
+        position: absolute;
+        top: 10px;
+        left: 40%;
+        color: black;
+    }
+    .grid-3 p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
+    
+/* text-sec */
+article{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #00000030;
+    color: #ec1f1ffc;
+    margin-top: 10%;
+    text-align: center;
+    padding: 10px;
+}
+.text-1{
+    padding-top:25px;
+}
+.text-1 h1{
+    font-size: 21px;
+    font-weight: 600;
+}
+.text-1 p{
+    padding-top: 5%;
+    font-size: 12px;
+}
+article button{
+    padding: 1% 3%;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+article button:hover{
+    box-shadow: 10px 10px 10px rgba(251, 255, 0, 0.659);
+}
+
+
+
+
+/* Img-text */
+.img-text{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.img-div{
+    width: 30%;
+}
+.text-div{
+    width: 70%;
+    /* padding-left: 100px; */
+}
+
+.img-div img{
+    width: 100%;
+    height: 300px;
+    margin-left: 50px;
+    box-shadow: -30px 30px 10px rgba(247, 4, 4, 0.304);
+}
+
+.text-div h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-div .text-div2{
+    padding:  5% 10%;
+    font-size: 12px;
+}
+.text-div .text-div2 button{
+    padding: 1% 5%;
+    margin-top: 10%;
+    border: none;
+}
+
+
+
+/* Testimonial-sec */
+.testimonial{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: rgba(0, 128, 0, 0.692);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 5% 0 5%;
+    margin-top: 10%;
+    /* border-radius: 15px; */
+}
+.left-div{
+    width: 100%;
+    /* margin-right: 5%; */
+}
+.right-div{
+    width: 100%;
+    /* margin-left: 5%; */
+}
+.right-div img{
+    height: 100%;
+    border-radius: 12px;
+}
+
+.left-div h3{
+    font-size: 21px;
+    margin-bottom: 15%;
+    color: black;
+    font-weight: 600;
+}
+
+.left-div p{
+    font-size: 13px;
     color:#FFFFFF;
 }
 
